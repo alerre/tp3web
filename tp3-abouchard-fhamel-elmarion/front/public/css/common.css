@@ -1,0 +1,80 @@
+h1 {
+    font-size: 0px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+h2 {
+    margin-left: 24%;
+}
+
+#formSign {
+    margin: auto;
+    width: 50%;
+}
+
+.center {
+    text-align: center;
+}
+
+#carte-canvas {
+    height: 100%;
+    width: 100%;
+    background-color: #ccc
+}
+
+html,
+body,
+#page {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#page {
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    z-index: 10;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+#middle {
+    position: absolute;
+    top: 70px;
+    bottom: 20px;
+    width: 100%;
+    z-index: 0;
+}
+
+footer {
+    position: absolute;
+    font-size: 75%;
+    text-align: center;
+    height: 20px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.right {
+    float: right;
+}
+
+.uneDemi
+{
+    margin: 2%;
+    width: 40%;
+    height: 250px;
+    float: left;
+    text-align: center;
+}

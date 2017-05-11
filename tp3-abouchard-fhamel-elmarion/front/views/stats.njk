@@ -1,0 +1,41 @@
+{% extends "layout.njk" %}
+
+{% block contain %}
+	<h2 classe="center">Stats</h2>
+
+    <div id="starsEquipe" class="uneDemi">
+    <h3>Classement des equipe</h3>
+        <p id="premiereEquipe"></p>
+        <p id="deuxiemeEquipe"></p>
+        <p id="troisiemeEquipe"></p>
+        <p id="quatriemeEquipe"></p>
+        <p id="cinquiemeEquipe"></p>
+    </div>
+    
+    <div id="statsUser" class="uneDemi">
+    <h3>Info joueur</h3>
+    <p id="nomDuJoueur"></p>
+    <p id="scoreDuJoueur"></p>
+    <p id="emailDuJoueur"></p>
+    <p id="equipeDuJoueur"></p>
+    </div>
+
+    <div id="bornePlusPopulaire" class="uneDemi">
+    <h3>Borne les plus populaire</h3>
+        <p id="premiereBorne"></p>
+        <p id="deuxiemeBorne"></p>
+        <p id="troisiemeBorne"></p>
+        <p id="quatriemeBorne"></p>
+        <p id="cinquiemeBorne"></p>
+    </div>
+
+    <div id="treePlusPopulaire" class="uneDemi">
+    <h3>Arbre les plus populaire</h3>
+        <p id="premiereTree"></p>
+        <p id="deuxiemeTree"></p>
+        <p id="troisiemeTree"></p>
+        <p id="quatriemeTree"></p>
+        <p id="cinquiemeTree"></p>
+    </div>
+    <script src="../js/stats.js"></script>
+{% endblock %}

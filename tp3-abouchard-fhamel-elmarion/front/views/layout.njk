@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>CuBones</title>
+
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="../js/cookie.js"></script>
+
+    
+
+</head>
+
+<body>
+
+    <div id="page">
+
+        <header>
+            <!-- ONLY FOR GOOGLE -->
+            <h1>CuBones</h1>
+
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="/">CuBones</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="/stats">Stats</a></li>
+                        </ul>
+
+                        <ul class="nav navbar-nav navbar-right" id="navlogin">
+
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </header>
+
+        <div id="middle">
+           {% block contain %}{% endblock %}
+        </div><!--FIN DE CONTENU DANS BODY-->
+
+        <footer>
+            <p>Alexandre Bouchard, Francis Hamel and Ève-Lyne Marion © 2017</p>
+        </footer>
+
+    </div>
+
+
+
+</body>
+    <script src="../js/layout.js"></script>
+
+</html>
